@@ -1,27 +1,14 @@
-/* @pjs preload="Sky.jpg", */
-/* @pjs preload="Grass.jpg", */
-/* @pjs preload="Sun.png", */
-/* @pjs preload="House.png", */
-/* @pjs preload="House 1.png", */
-/* @pjs preload="House 2.png", */
-/* @pjs preload="House 3.png", */
-/* @pjs preload="Thank You.png", */
 
 PImage img;
-PImage img2;
-PImage img3;
-PImage img4;
-PImage img5;
-PImage img6;
 
 void setup() {
  size(900,900);
    img= loadImage("Sky.jpg");
   image(img, 0, 0,900,600);
-  img1= loadImage("Grass.jpg");
-  image(img1,0,600,900,900);
- img2= loadImage("Sun.png");
-  image(img2, 670, 1);
+  img= loadImage("Grass.jpg");
+  image(img,0,600,900,900);
+ img= loadImage("Sun.png");
+  image(img, 670, 1);
   
 }
   void draw() {
@@ -32,17 +19,17 @@ void setup() {
 
  if(mousePressed) {
   
-   img3= loadImage("House.png");
-  image(img3, 350, 350);
+   img= loadImage("House.png");
+  image(img, 350, 350);
 
-  img4= loadImage("Thank You.png");
-  image(img4, 150,150);
+  img= loadImage("Thank You.png");
+  image(img, 150,150);
 
-  img5= loadImage("House 2.png");
-  image(img5, 50,450);
+  img= loadImage("House 2.png");
+  image(img, 50,450);
   
-  img6= loadImage("House 3.png");
-  image(img6,600,450);
+  img= loadImage("House 3.png");
+  image(img,600,450);
    fill(0);
 textAlign(190);
 textSize(55);
