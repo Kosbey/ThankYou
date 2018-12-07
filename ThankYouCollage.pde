@@ -8,14 +8,19 @@
 /* @pjs preload="Thank You.png", */
 
 PImage img;
+PImage img2;
+PImage img3;
+PImage img4;
+PImage img5;
+PImage img6;
 
 void setup() {
  size(900,900);
    img= loadImage("Sky.jpg");
   image(img, 0, 0,900,600);
-  img= loadImage("Grass.jpg");
+  img1= loadImage("Grass.jpg");
   image(img,0,600,900,900);
- img= loadImage("Sun.png");
+ img2= loadImage("Sun.png");
   image(img, 670, 1);
   
 }
@@ -27,16 +32,16 @@ void setup() {
 
  if(mousePressed) {
   
-   img= loadImage("House.png");
+   img3= loadImage("House.png");
   image(img, 350, 350);
 
-  img= loadImage("Thank You.png");
+  img4= loadImage("Thank You.png");
   image(img, 150,150);
 
-  img= loadImage("House 2.png");
+  img5= loadImage("House 2.png");
   image(img, 50,450);
   
-  img= loadImage("House 3.png");
+  img6= loadImage("House 3.png");
   image(img,600,450);
    fill(0);
 textAlign(190);
