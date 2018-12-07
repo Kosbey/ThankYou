@@ -19,9 +19,9 @@ void setup() {
    img= loadImage("Sky.jpg");
   image(img, 0, 0,900,600);
   img1= loadImage("Grass.jpg");
-  image(img,0,600,900,900);
+  image(img1,0,600,900,900);
  img2= loadImage("Sun.png");
-  image(img, 670, 1);
+  image(img2, 670, 1);
   
 }
   void draw() {
@@ -33,16 +33,16 @@ void setup() {
  if(mousePressed) {
   
    img3= loadImage("House.png");
-  image(img, 350, 350);
+  image(img3, 350, 350);
 
   img4= loadImage("Thank You.png");
-  image(img, 150,150);
+  image(img4, 150,150);
 
   img5= loadImage("House 2.png");
-  image(img, 50,450);
+  image(img5, 50,450);
   
   img6= loadImage("House 3.png");
-  image(img,600,450);
+  image(img6,600,450);
    fill(0);
 textAlign(190);
 textSize(55);
