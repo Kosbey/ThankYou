@@ -1,4 +1,11 @@
-/* @pjs preload="flag.png", */
+/* @pjs preload="Sky.jpg", */
+/* @pjs preload="Grass.jpg", */
+/* @pjs preload="Sun.png", */
+/* @pjs preload="House.png", */
+/* @pjs preload="House 1.png", */
+/* @pjs preload="House 2.png", */
+/* @pjs preload="House 3.png", */
+/* @pjs preload="Thank You.png", */
 
 PImage img;
 
