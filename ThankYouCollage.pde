@@ -1,3 +1,5 @@
+/* @pjs preload="flag.png", */
+
 PImage img;
 
 void setup() {
