@@ -1,14 +1,20 @@
 
-PImage img;
+PImage img1;
+PImage img2;
+PImage img3;
+PImage img4;
+PImage img5;
+PImage img6;
+PImage img7;
 
 void setup() {
  size(900,900);
-   img= loadImage("Sky.jpg");
-  image(img, 0, 0,900,600);
-  img= loadImage("Grass.jpg");
-  image(img,0,600,900,900);
- img= loadImage("Sun.png");
-  image(img, 670, 1);
+   img1= loadImage("Sky.jpg");
+  image(img1, 0, 0,900,600);
+  img2= loadImage("Grass.jpg");
+  image(img2,0,600,900,900);
+ img3= loadImage("Sun.png");
+  image(img3, 670, 1);
   
 }
   void draw() {
@@ -19,17 +25,17 @@ void setup() {
 
  if(mousePressed) {
   
-   img= loadImage("House.png");
-  image(img, 350, 350);
+   img4= loadImage("House.png");
+  image(img4, 350, 350);
 
-  img= loadImage("Thank You.png");
-  image(img, 150,150);
+  img5= loadImage("Thank You.png");
+  image(img5, 150,150);
 
-  img= loadImage("House 2.png");
-  image(img, 50,450);
+  img6= loadImage("House 2.png");
+  image(img6, 50,450);
   
-  img= loadImage("House 3.png");
-  image(img,600,450);
+  img7= loadImage("House 3.png");
+  image(img7,600,450);
    fill(0);
 textAlign(190);
 textSize(55);
