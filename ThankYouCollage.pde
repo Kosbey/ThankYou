@@ -1,3 +1,5 @@
+
+
 PImage img;
 PImage img1;
 PImage img2;
@@ -39,7 +41,7 @@ void setup() {
    fill(0);
 textAlign(190);
 textSize(55);
-text("Thank You For Everything :D",100,680);
+text("For Everything :D",100,680);
       
  }else{
 
