@@ -41,7 +41,7 @@ void setup() {
    fill(0);
 textAlign(190);
 textSize(55);
-text("For Everything :D",100,680);
+text("For Everything :D",250,680);
       
  }else{
 
